@@ -1,4 +1,5 @@
 'use client';
+/* eslint-disable react/no-unescaped-entities */
 
 import { useEffect, useState } from 'react';
 import axios from 'axios';
@@ -98,7 +99,7 @@ export default function Page() {
         <div className="max-w-7xl mx-auto flex items-center justify-between">
           <div className="flex-shrink-0 text-2xl sm:text-3xl">🪙</div>
           <h1 className="text-red-700 text-xl sm:text-2xl md:text-3xl font-extrabold tracking-wider text-center flex-grow mx-2 sm:mx-4">
-            DOCTOR’S CRYPTO PREDICTION
+          DOCTOR&apos;S CRYPTO PREDICTION
           </h1>
           <div className="flex-shrink-0 text-2xl sm:text-3xl">⛰️</div>
         </div>
@@ -147,7 +148,7 @@ export default function Page() {
             {/* Description */}
             <section className="mb-10 max-w-3xl mx-auto text-center px-4">
               <p className="text-lg leading-relaxed text-gray-200">
-                Welcome to Doctor’s Crypto Prediction – your intelligent window into the
+              Welcome to Doctor&apos;s Crypto Prediction.  your intelligent window into the
                 future of crypto! Using advanced machine learning models and real-time
                 analysis, we forecast Bitcoin trends to help you make smarter decisions.
                 Let data drive your strategy. Navigate your crypto journey — with
@@ -259,9 +260,10 @@ export default function Page() {
 
       {/* Footer */}
       <footer className="bg-white bg-opacity-90 text-black p-4 text-center z-10 shadow-inner">
-        <p>
-          © {new Date().getFullYear()} Doctor's Crypto Prediction — All rights reserved.
-        </p>
+      <p>
+  © {new Date().getFullYear()} Doctor&apos;s Crypto Prediction — All rights reserved.
+</p>
+
       </footer>
     </div>
   );
